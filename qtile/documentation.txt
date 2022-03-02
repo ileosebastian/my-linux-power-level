@@ -1,0 +1,115 @@
+======================== = = KEYS = = ========================
+# ---- Create a shortcut
+Key(
+    mod : list of mod key and another keys          ,
+    key : string key                                ,
+    func : function that do something               ,
+    desc (optional) : string to describe shortcut   ,
+)
+
+lazy.
+    layout.
+	left()
+	right()
+	down()
+	up()
+	next()
+
+	shuffle_left()
+	shuffle_right()
+	shuffle_down()
+	shuffle_up()
+
+	grow_left()
+	grow_right()
+	grow_down()
+	grow_up()
+	normalize()
+
+	toggle_split()
+
+
+    window.
+	kill()	
+	togroup()
+	set_position_floating()
+	get_position()
+	set_size_floating()
+	get_size()
+	bring_to_front()
+
+
+    spawn()
+
+    next_layout()
+
+    spawncmd()	
+
+    reload_config()
+
+    shutdown()
+
+    group[].
+	toscreen()
+
+    Columns()
+    Max()
+    Stack()
+    Bsp()
+    Matrix()
+    MonadTall()
+    MonadWide()
+    RatioTile()
+    Tile()
+    TreeTab()
+    VerticalTile()
+    Zoomy()
+
+    Floating()
+
+
+======================== = = GROUPS = = ========================
+
+Group(
+
+)
+
+======================== = = LAYOUTS = = ========================
+
+======================== = = WIDGETS = = ========================
+widget_defaults
+
+widget.
+    CurrentLayout() 
+    GroupBox()
+    Prompt()
+    WindowName()
+    Chord()
+    TextBox()
+    Systray()
+    Sep()
+    Battery()
+    BatteryIcon()
+    Clock()
+    QuickExit()
+
+======================== = = SCREENS = = ========================
+screen
+
+Screen()
+
+bar.
+    Bar()
+
+
+======================== = = MOUSE LAYOUTS = = ========================
+mouse
+
+Drag()
+
+Click()
+
+
+======================== = = VARIABLE SETTINGS = = ========================
+auto_minimize
+wmname
